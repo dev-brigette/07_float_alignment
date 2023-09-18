@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float & Align</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4em;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+    }
+
+    .clr {
+      clear: both;
+    }
+
+    .box{
+      background: rgb(197, 114, 114);
+      border: 1px solid rgb(55, 54, 54);
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .box h3 {
+      text-align: center;
+    }
+
+    .box p {
+      /* Text Align*/
+      text-align: center;
+      text-align: justify;
+    }
+
+    #box-2 {
+      float: left;
+      width: 68%;
+    }
+
+    #box-3 {
+      float: right;
+      width: 30%;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="box-1" class="box">
+      <h3>Be Kind</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem eius at neque ducimus placeat magni mollitia quia optio, nobis perspiciatis.</p>
+    </div>
+    <div id="box-2" class="box">
+      <h3>Be Brave</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem eius at neque ducimus placeat magni mollitia quia optio, nobis perspiciatis.</p>
+    </div>
+    <div id="box-3" class="box">
+      <h3>Be Bold</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem eius at neque ducimus placeat magni mollitia quia optio, nobis perspiciatis.</p>
+    </div>
+
+    <div class="clr"></div>
+    
+    <div id="box-4" class="box">
+      <h3>Be You</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem eius at neque ducimus placeat magni mollitia quia optio, nobis perspiciatis.</p>
+    </div>
+
+  </div>
+
+  
+ 
+  </div>
+</body>
+</html>
